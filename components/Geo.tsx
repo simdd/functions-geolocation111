@@ -1,6 +1,6 @@
 'use client';
 
-import { getGeo } from '@/lib/utils';
+import { getGeo1 } from '@/lib/utils';
 import React, { useState, useEffect } from 'react';
 
 export const Geo = () => {
