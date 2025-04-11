@@ -8,7 +8,20 @@
           "key": "X-Error-Message",
           "value": "xxxxxxx"
         }
-      ]
+      ],
+    }
+  ],
+   "redirects": [
+    {
+      "source": "/redirect-a/*.jpg",
+      "destination": "/redirect-a2/:splat.jpg",
+      "statusCode": 301
+    }
+   ],
+  "rewrites": [
+    {
+      "source": "/rewrite-a/*.jpg",
+      "destination": "/rewrite-a2/:splat.jpg"
     }
   ]
 }
